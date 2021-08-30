@@ -14,3 +14,4 @@ How to "convert pdf forms to xml"  and "extract fillable data"
 
 4- Also, visual inspection and some manual changes are needed. Because forms have different layouts, some has images in them. The tool recognizes fillables fields and adds text labels to them, these labels are used in xml files. The auto generated text labels are not very good sometimes and some may be missing. Therefore visual inspection and manual changes are necessary.
 
+5-After handling with old pdf types, we get all forms in acroform. Then forAcroforms.py file can be used to extract fillable fields to xml files. Pdf files and forAcroforms.py file should be in the same directory. All pdf files are converted to xml in the same directory. 
